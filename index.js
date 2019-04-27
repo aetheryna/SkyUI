@@ -4,9 +4,10 @@ const express = require("express");
 const app = new express();
 
 app.use(express.static("public"));
+app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {
-  res.sendFile(path.resolve(__dirname, "pages/index.html"));
+  res.render(path.join(__dirname, "pages/index.ejs"));
 });
 
 app.listen("3000", () => {
