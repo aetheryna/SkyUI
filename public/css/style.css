@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: lightblue !important;
+  font-family: "Montserrat" !important;
+}
+
+header ul {
+  list-style-type: none;
+  font-size: 20px;
+}
+
+header ul .logoNav {
+  padding: 52px 0 0 160px;
+}
+
+header ul .listMainDiv {
+  position: absolute;
+  top: 52px;
+  right: 160px;
+}
+
+header ul .listMainDiv a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header ul .listMain {
+  display: inline;
+  padding-left: 30px;
+}
+
+header ul .btnLogin {
+  width: 100px;
+  height: 32px;
+  background: #fff;
+  border: none;
+  border-radius: 5%;
+  color: #2c96ff;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  font-family: "Fredoka One";
+}
+
+header ul .btnLogin:hover {
+  background: #2c96ff;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

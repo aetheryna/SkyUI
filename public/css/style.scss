@@ -1,0 +1,56 @@
+@import "variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: lightblue !important;
+  font-family: $primaryFont !important;
+}
+
+header {
+  ul {
+    list-style-type: none;
+    font-size: 20px;
+
+    .logoNav {
+      padding: 52px 0 0 160px;
+    }
+
+    .listMainDiv {
+      position: absolute;
+      top: 52px;
+      right: 160px;
+
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+
+    .listMain {
+      display: inline;
+      padding-left: 30px;
+    }
+
+    .btnLogin {
+      width: 100px;
+      height: 32px;
+      background: #fff;
+      border: none;
+      border-radius: 5%;
+      color: $primaryColor;
+      transition: 0.2s ease-in;
+      font-family: $secondaryFont;
+
+      &:hover {
+        background: $primaryColor;
+        color: #fff;
+      }
+    }
+  }
+}
