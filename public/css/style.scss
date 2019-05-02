@@ -60,27 +60,29 @@ header {
 }
 
 .textIntro {
-  margin: 252px 0 0 160px;
+  margin: 200px 0 0 160px;
   color: #fff;
 
   h1 {
     font-family: $secondaryFont;
-    font-size: 85px;
+    font-size: 65px;
   }
 
   p {
-    font-size: 35px;
+    padding-top: 20px;
+    font-size: 25px;
+    color: rgba(255, 255, 255, 0.8);
   }
 
   button {
     margin-top: 40px;
-    width: 250px;
-    height: 70px;
+    width: 235px;
+    height: 60px;
     border: none;
     border-radius: 10px;
     color: #fff;
     background: #0180ff;
-    font-size: 30px;
+    font-size: 25px;
     font-family: $secondaryFont;
     transition: 0.2s ease-in;
 
@@ -91,13 +93,13 @@ header {
   }
 }
 
-.svgIntro {
+.imgIntro {
   float: right;
 
   img {
     width: 1120px;
     height: 600px;
-    margin-top: -340px;
+    margin-top: -450px;
     margin-right: -20px;
   }
 }

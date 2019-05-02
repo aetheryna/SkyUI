@@ -56,28 +56,30 @@ header ul .btnLogin:hover {
 }
 
 .textIntro {
-  margin: 252px 0 0 160px;
+  margin: 200px 0 0 160px;
   color: #fff;
 }
 
 .textIntro h1 {
   font-family: "Fredoka One";
-  font-size: 85px;
+  font-size: 65px;
 }
 
 .textIntro p {
-  font-size: 35px;
+  padding-top: 20px;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .textIntro button {
   margin-top: 40px;
-  width: 250px;
-  height: 70px;
+  width: 235px;
+  height: 60px;
   border: none;
   border-radius: 10px;
   color: #fff;
   background: #0180ff;
-  font-size: 30px;
+  font-size: 25px;
   font-family: "Fredoka One";
   -webkit-transition: 0.2s ease-in;
   transition: 0.2s ease-in;
@@ -88,14 +90,14 @@ header ul .btnLogin:hover {
   color: #0180ff;
 }
 
-.svgIntro {
+.imgIntro {
   float: right;
 }
 
-.svgIntro img {
+.imgIntro img {
   width: 1120px;
   height: 600px;
-  margin-top: -340px;
+  margin-top: -450px;
   margin-right: -20px;
 }
 /*# sourceMappingURL=style.css.map */
