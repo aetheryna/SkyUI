@@ -60,7 +60,7 @@ header {
 }
 
 #section1 {
-  height: 980px;
+  height: 850px;
 
   .textIntro {
     margin: 200px 0 0 160px;
@@ -109,7 +109,10 @@ header {
 }
 
 #customerInfo {
-  height: 480px;
+  padding-top: 160px;
+  height: 640px;
+  background: url("../images/section2Backgroundtop.png");
+  background-repeat: no-repeat;
 
   .placeholder {
     width: 100%;

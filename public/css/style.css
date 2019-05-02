@@ -56,7 +56,7 @@ header ul .btnLogin:hover {
 }
 
 #section1 {
-  height: 980px;
+  height: 850px;
 }
 
 #section1 .textIntro {
@@ -106,7 +106,10 @@ header ul .btnLogin:hover {
 }
 
 #customerInfo {
-  height: 480px;
+  padding-top: 160px;
+  height: 640px;
+  background: url("../images/section2Backgroundtop.png");
+  background-repeat: no-repeat;
 }
 
 #customerInfo .placeholder {
