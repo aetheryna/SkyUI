@@ -55,24 +55,28 @@ header ul .btnLogin:hover {
   color: #fff;
 }
 
-.textIntro {
+#section1 {
+  height: 980px;
+}
+
+#section1 .textIntro {
   margin: 200px 0 0 160px;
   color: #fff;
 }
 
-.textIntro h1 {
+#section1 .textIntro h1 {
   font-family: "Fredoka One";
   font-size: 65px;
 }
 
-.textIntro p {
+#section1 .textIntro p {
   padding-top: 20px;
   font-size: 25px;
   color: rgba(255, 255, 255, 0.8);
 }
 
-.textIntro button {
-  margin-top: 40px;
+#section1 .textIntro button {
+  margin-top: 25px;
   width: 235px;
   height: 60px;
   border: none;
@@ -85,19 +89,29 @@ header ul .btnLogin:hover {
   transition: 0.2s ease-in;
 }
 
-.textIntro button:hover {
+#section1 .textIntro button:hover {
   background: #fff;
   color: #0180ff;
 }
 
-.imgIntro {
+#section1 .imgIntro {
   float: right;
 }
 
-.imgIntro img {
+#section1 .imgIntro img {
   width: 1120px;
   height: 600px;
   margin-top: -450px;
   margin-right: -20px;
+}
+
+#customerInfo .placeholderBanner {
+  width: 100%;
+  text-align: center;
+  font-size: 45px;
+}
+
+#customerInfo .placeholderBanner img {
+  margin-left: -10px;
 }
 /*# sourceMappingURL=style.css.map */
