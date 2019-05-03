@@ -110,7 +110,7 @@ header {
 
 #customerInfo {
   padding-top: 160px;
-  height: 640px;
+  height: 1080px;
   background: url("../images/section2Backgroundtop.png");
   background-repeat: no-repeat;
 
@@ -131,6 +131,27 @@ header {
         margin-right: 33.5px;
         margin-left: 33.5px;
       }
+    }
+  }
+
+  .infomationSectorS1 {
+    margin: 225px 0 0 300px;
+    color: $primaryFontColor;
+
+    h1 {
+      font-weight: bolder;
+      font-size: 45px;
+    }
+
+    p {
+      font-size: 20px;
+      padding-top: 50px;
+    }
+
+    img {
+      margin-top: -33%;
+      margin-right: 200px;
+      float: right;
     }
   }
 }
