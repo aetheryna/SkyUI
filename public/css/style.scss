@@ -135,7 +135,7 @@ header {
   }
 
   .infomationSectorS1 {
-    margin: 225px 0 0 300px;
+    margin: 245px 0 0 300px;
     color: $primaryFontColor;
 
     h1 {
@@ -146,12 +146,40 @@ header {
     p {
       font-size: 20px;
       padding-top: 50px;
+      line-height: 25px;
     }
 
     img {
-      margin-top: -33%;
+      margin-top: -510px;
       margin-right: 200px;
       float: right;
+    }
+  }
+
+  .infomationSectorS2 {
+    padding: 225px 0 0 300px;
+    background: $bgColorSecondary;
+    height: 100%;
+    color: $primaryFontColor;
+
+    h1 {
+      margin-left: 45%;
+      margin-top: 250px;
+      font-weight: bolder;
+      font-size: 45px;
+    }
+
+    p {
+      margin-left: 45%;
+      font-size: 20px;
+      padding-top: 50px;
+      line-height: 25px;
+    }
+
+    img {
+      margin-top: -420px;
+      margin-right: 200px;
+      float: left;
     }
   }
 }
