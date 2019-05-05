@@ -10,6 +10,7 @@
 body {
   background: url("../images/background.png") !important;
   background-repeat: no-repeat !important;
+  background-size: 100%;
   font-family: $primaryFont !important;
   overflow-x: hidden;
 }
@@ -98,6 +99,7 @@ header {
 
   .imgIntro {
     float: right;
+    position: fixed;
 
     img {
       width: 1120px;
