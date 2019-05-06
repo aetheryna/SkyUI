@@ -10,9 +10,14 @@
 body {
   background: url("../images/background.png") !important;
   background-repeat: no-repeat !important;
-  background-size: 100%;
+  background-size: cover;
   font-family: $primaryFont !important;
   overflow-x: hidden;
+}
+
+.page-warp {
+  width: 1920px;
+  display: block;
 }
 
 // ----- HEADER ----- //
