@@ -260,3 +260,66 @@ header {
     }
   }
 }
+
+#finalSector {
+  background: $bgColorSecondary;
+
+  .finalSectorWrapper {
+    @include zoomOut;
+    width: 100%;
+
+    .wrapFinalInfoSector {
+      padding-top: 300px;
+      text-align: center;
+      color: $primaryFontColor;
+
+      h1 {
+        font-weight: 700;
+        font-size: 45px;
+        padding-top: 50px;
+      }
+
+      p {
+        font-size: 25px;
+        padding-top: 50px;
+      }
+
+      button {
+        background: $primaryColor;
+        font-family: $secondaryFont;
+        color: #fff;
+        border: none;
+        border-radius: 7px;
+        width: 285px;
+        height: 77px;
+        font-size: 30px;
+        margin-top: 50px;
+      }
+    }
+  }
+}
+
+#footer {
+  height: 720px;
+  width: 100%;
+  background: $bgColorSecondary;
+
+  .wrapFooter {
+    @include zoomOut;
+
+    .wrapCloudlayer {
+      text-align: center;
+
+      img {
+        margin-left: -410px;
+      }
+    }
+
+    .footer {
+      background: #fff;
+      height: 350px;
+      width: 100%;
+      margin-top: -150px;
+    }
+  }
+}
