@@ -15,26 +15,23 @@ body {
   overflow-x: hidden;
 }
 
-.page-warp {
-  width: 1920px;
+#page-wrap {
   display: block;
 }
 
 // ----- HEADER ----- //
 
 header {
+  @include zoomOut;
+
   ul {
     list-style-type: none;
     font-size: 20px;
 
-    .logoNav {
-      padding: 52px 0 0 160px;
-    }
-
     .listMainDiv {
-      position: absolute;
-      top: 52px;
-      right: 160px;
+      display: flex;
+      justify-content: space-between;
+      padding: 52px 160px 0 160px;
 
       a {
         text-decoration: none;
@@ -66,6 +63,7 @@ header {
 }
 
 #section1 {
+  @include zoomOut;
   height: 850px;
 
   .textIntro {
@@ -144,21 +142,25 @@ header {
     margin: 245px 0 0 300px;
     color: $primaryFontColor;
 
-    h1 {
-      font-weight: bolder;
-      font-size: 45px;
-    }
+    .sectorWrap {
+      @include zoomOut;
 
-    p {
-      font-size: 20px;
-      padding-top: 50px;
-      line-height: 25px;
-    }
+      h1 {
+        font-weight: bolder;
+        font-size: 45px;
+      }
 
-    img {
-      margin-top: -510px;
-      margin-right: 200px;
-      float: right;
+      p {
+        font-size: 20px;
+        padding-top: 50px;
+        line-height: 25px;
+      }
+
+      img {
+        margin-top: -510px;
+        margin-right: 200px;
+        float: right;
+      }
     }
   }
 
@@ -168,24 +170,28 @@ header {
     height: 100%;
     color: $primaryFontColor;
 
-    h1 {
-      margin-left: 45%;
-      margin-top: 250px;
-      font-weight: bolder;
-      font-size: 45px;
-    }
+    .sectorWrap {
+      @include zoomOut;
 
-    p {
-      margin-left: 45%;
-      font-size: 20px;
-      padding-top: 50px;
-      line-height: 25px;
-    }
+      h1 {
+        margin-left: 45%;
+        margin-top: 250px;
+        font-weight: bolder;
+        font-size: 45px;
+      }
 
-    img {
-      margin-top: -420px;
-      margin-right: 200px;
-      float: left;
+      p {
+        margin-left: 45%;
+        font-size: 20px;
+        padding-top: 50px;
+        line-height: 25px;
+      }
+
+      img {
+        margin-top: -420px;
+        margin-right: 200px;
+        float: left;
+      }
     }
   }
 }
@@ -224,6 +230,7 @@ header {
   }
 
   .boxWrapInfo {
+    @include zoomOut;
     padding-top: 45px;
     display: flex;
     justify-content: space-around;

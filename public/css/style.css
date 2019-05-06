@@ -14,9 +14,13 @@ body {
   overflow-x: hidden;
 }
 
-.page-warp {
-  width: 1920px;
+#page-wrap {
   display: block;
+}
+
+header {
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 header ul {
@@ -24,14 +28,14 @@ header ul {
   font-size: 20px;
 }
 
-header ul .logoNav {
-  padding: 52px 0 0 160px;
-}
-
 header ul .listMainDiv {
-  position: absolute;
-  top: 52px;
-  right: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 52px 160px 0 160px;
 }
 
 header ul .listMainDiv a {
@@ -62,6 +66,8 @@ header ul .btnLogin:hover {
 }
 
 #section1 {
+  max-width: 1920px;
+  margin: 0 auto;
   height: 850px;
 }
 
@@ -144,18 +150,23 @@ header ul .btnLogin:hover {
   color: #5f5f5f;
 }
 
-#customerInfo .infomationSectorS1 h1 {
+#customerInfo .infomationSectorS1 .sectorWrap {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+#customerInfo .infomationSectorS1 .sectorWrap h1 {
   font-weight: bolder;
   font-size: 45px;
 }
 
-#customerInfo .infomationSectorS1 p {
+#customerInfo .infomationSectorS1 .sectorWrap p {
   font-size: 20px;
   padding-top: 50px;
   line-height: 25px;
 }
 
-#customerInfo .infomationSectorS1 img {
+#customerInfo .infomationSectorS1 .sectorWrap img {
   margin-top: -510px;
   margin-right: 200px;
   float: right;
@@ -168,21 +179,26 @@ header ul .btnLogin:hover {
   color: #5f5f5f;
 }
 
-#customerInfo .infomationSectorS2 h1 {
+#customerInfo .infomationSectorS2 .sectorWrap {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+#customerInfo .infomationSectorS2 .sectorWrap h1 {
   margin-left: 45%;
   margin-top: 250px;
   font-weight: bolder;
   font-size: 45px;
 }
 
-#customerInfo .infomationSectorS2 p {
+#customerInfo .infomationSectorS2 .sectorWrap p {
   margin-left: 45%;
   font-size: 20px;
   padding-top: 50px;
   line-height: 25px;
 }
 
-#customerInfo .infomationSectorS2 img {
+#customerInfo .infomationSectorS2 .sectorWrap img {
   margin-top: -420px;
   margin-right: 200px;
   float: left;
@@ -223,6 +239,8 @@ header ul .btnLogin:hover {
 }
 
 #grayboxInfo .boxWrapInfo {
+  max-width: 1920px;
+  margin: 0 auto;
   padding-top: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
