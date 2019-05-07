@@ -294,10 +294,17 @@ header {
         height: 77px;
         font-size: 30px;
         margin-top: 50px;
+        transition: 0.1s ease-in-out;
+
+        &:hover {
+          background: #0b55b5;
+        }
       }
     }
   }
 }
+
+//Footer
 
 #footer {
   height: 720px;
@@ -320,6 +327,52 @@ header {
       height: 350px;
       width: 100%;
       margin-top: -150px;
+      position: relative;
+
+      .wrapFooterInfo {
+        width: 100%;
+        height: 200px;
+        background: $primaryColor;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        padding-top: 90px;
+
+        img {
+          height: 35px;
+          width: 130px;
+        }
+
+        .footerPageLink {
+          margin-left: 160px;
+          font-size: 15px;
+
+          a {
+            padding-left: 80px;
+            text-decoration: none;
+            color: #fff;
+
+            &:hover {
+              color: #0b55b5;
+            }
+          }
+        }
+
+        .footerSocials {
+          margin-left: 1070px;
+
+          a {
+            color: #fff;
+            padding-right: 45px;
+            font-size: 25px;
+            transition: 0.2s ease-in-out;
+
+            &:hover {
+              color: #0b55b5;
+            }
+          }
+        }
+      }
     }
   }
 }
