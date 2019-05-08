@@ -77,14 +77,14 @@ header {
 
     p {
       padding-top: 20px;
+      padding-bottom: 25px;
       font-size: 25px;
       color: rgba(255, 255, 255, 0.8);
     }
 
-    button {
-      margin-top: 25px;
-      width: 235px;
-      height: 60px;
+    .button {
+      text-decoration: none;
+      padding: 20px 40px;
       border: none;
       border-radius: 10px;
       color: #fff;
@@ -106,7 +106,7 @@ header {
     img {
       width: 1120px;
       height: 600px;
-      margin-top: -450px;
+      margin-top: -425px;
       margin-right: -20px;
     }
   }
