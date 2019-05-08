@@ -10,6 +10,10 @@ app.get("/", (req, res) => {
   res.render(path.join(__dirname, "pages/index.ejs"));
 });
 
+app.get("/services", (req, res) => {
+  res.render(path.join(__dirname, "pages/services.ejs"));
+});
+
 app.listen("3000", () => {
   console.log("Server is running on port 3000.");
 });
