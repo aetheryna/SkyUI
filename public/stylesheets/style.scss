@@ -1,4 +1,4 @@
-@import "variables";
+@import "./partials/variables";
 
 * {
   margin: 0;
@@ -8,15 +8,18 @@
 }
 
 body {
-  background: url("../images/background.png") !important;
-  background-repeat: no-repeat !important;
-  background-size: cover;
   font-family: $primaryFont !important;
   overflow-x: hidden;
 }
 
 #page-wrap {
   display: block;
+  background: url("../images/background.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover;
+}
+
+#page-wrap-services {
 }
 
 // ----- HEADER ----- //

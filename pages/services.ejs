@@ -2,17 +2,26 @@
 <html lang="en">
   <head>
     <%include ./partials/startHTML %>
+    <link rel="stylesheet" href="./stylesheets/services.css" />
   </head>
   <body>
-    <div class="page-wrap">
+    <div id="page-wrap-services">
       <%include ./partials/header %>
 
-      <section>
-        <h1>Work better, work smarter</h1>
-        <p>
-          We provide only the best in <br />
-          cloud services
-        </p>
+      <section id="infoBegin">
+        <div class="infoBeginWrap">
+          <h1>Work better, work smarter</h1>
+          <p>
+            We provide only the best in <br />
+            cloud services
+          </p>
+
+          <a href="#"> Choose your plan </a>
+        </div>
+
+        <div class="imgBeginWrap">
+          <img src="../images/WorkspaceFlatLay.png" alt="" />
+        </div>
       </section>
 
       <%include ./partials/footer %>
