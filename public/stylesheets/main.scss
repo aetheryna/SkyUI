@@ -1,0 +1,119 @@
+@import "./partials/variables";
+@import "./partials/reset";
+
+@import "./modules/home";
+// ----- HEADER ----- //
+
+header {
+  @include zoomOut;
+
+  ul {
+    list-style-type: none;
+    font-size: 20px;
+
+    .listMainDiv {
+      display: flex;
+      justify-content: space-between;
+      padding: 52px 160px 0 160px;
+
+      a {
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+
+    .listMain {
+      display: inline;
+      padding-left: 30px;
+    }
+
+    .btnLogin {
+      width: 100px;
+      height: 32px;
+      background: #fff;
+      border: none;
+      border-radius: 7px;
+      color: $primaryColor;
+      transition: 0.2s ease-in;
+      font-family: $secondaryFont;
+
+      &:hover {
+        background: $primaryColor;
+        color: #fff;
+      }
+    }
+  }
+}
+
+// ----- FOOTER ----- //
+
+#footer {
+  height: 720px;
+  width: 100%;
+  background: $bgColorSecondary;
+
+  .wrapFooter {
+    @include zoomOut;
+
+    .wrapCloudlayer {
+      text-align: center;
+
+      img {
+        margin-left: -410px;
+      }
+    }
+
+    .footer {
+      background: #fff;
+      height: 350px;
+      width: 100%;
+      margin-top: -150px;
+      position: relative;
+
+      .wrapFooterInfo {
+        width: 100%;
+        height: 200px;
+        background: $primaryColor;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        padding-top: 90px;
+
+        img {
+          height: 35px;
+          width: 130px;
+        }
+
+        .footerPageLink {
+          margin-left: 160px;
+          font-size: 15px;
+
+          a {
+            padding-left: 80px;
+            text-decoration: none;
+            color: #fff;
+
+            &:hover {
+              color: #0b55b5;
+            }
+          }
+        }
+
+        .footerSocials {
+          margin-left: 1070px;
+
+          a {
+            color: #fff;
+            padding-right: 45px;
+            font-size: 25px;
+            transition: 0.2s ease-in-out;
+
+            &:hover {
+              color: #0b55b5;
+            }
+          }
+        }
+      }
+    }
+  }
+}
