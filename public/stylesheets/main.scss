@@ -1,11 +1,12 @@
 @import "./partials/variables";
 @import "./partials/reset";
+@import "./partials/zoomout";
 
 @import "./modules/home";
 // ----- HEADER ----- //
 
 header {
-  @include zoomOut;
+  @include zoomout;
 
   ul {
     list-style-type: none;
@@ -53,7 +54,7 @@ header {
   background: $bgColorSecondary;
 
   .wrapFooter {
-    @include zoomOut;
+    @include zoomout;
 
     .wrapCloudlayer {
       text-align: center;

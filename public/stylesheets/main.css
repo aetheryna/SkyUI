@@ -18,30 +18,30 @@ body {
   background-size: cover;
 }
 
-#section1 {
+#sectionHome-Intro {
   max-width: 1920px;
   margin: 0 auto;
   height: 850px;
 }
 
-#section1 .textIntro {
+#sectionHome-Intro .textIntro {
   margin: 200px 0 0 160px;
   color: #fff;
 }
 
-#section1 .textIntro h1 {
+#sectionHome-Intro .textIntro h1 {
   font-family: "Fredoka One";
   font-size: 65px;
 }
 
-#section1 .textIntro p {
+#sectionHome-Intro .textIntro p {
   padding-top: 20px;
   padding-bottom: 25px;
   font-size: 25px;
   color: rgba(255, 255, 255, 0.8);
 }
 
-#section1 .textIntro .button {
+#sectionHome-Intro .textIntro .button {
   text-decoration: none;
   padding: 20px 40px;
   border: none;
@@ -54,36 +54,36 @@ body {
   transition: 0.2s ease-in;
 }
 
-#section1 .textIntro .button:hover {
+#sectionHome-Intro .textIntro .button:hover {
   background: #fff;
   color: #0180ff;
 }
 
-#section1 .imgIntro {
+#sectionHome-Intro .imgIntro {
   float: right;
 }
 
-#section1 .imgIntro img {
+#sectionHome-Intro .imgIntro img {
   width: 1120px;
   height: 600px;
   margin-top: -425px;
   margin-right: -20px;
 }
 
-#customerInfo {
+#Home-customerInfo {
   padding-top: 160px;
   height: 1280px;
   background: url("../images/section2Backgroundtop.png");
   background-repeat: no-repeat;
 }
 
-#customerInfo .placeholder {
+#Home-customerInfo .placeholder {
   width: 100%;
   text-align: center;
   font-size: 45px;
 }
 
-#customerInfo .placeholder .placeholderBanner {
+#Home-customerInfo .placeholder .placeholderBanner {
   width: 100%;
   height: 175px;
   background: #fff;
@@ -91,107 +91,107 @@ body {
           box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
 
-#customerInfo .placeholder .placeholderBanner img {
+#Home-customerInfo .placeholder .placeholderBanner img {
   width: 215px;
   margin-top: 30px;
   margin-right: 33.5px;
   margin-left: 33.5px;
 }
 
-#customerInfo .infomationSectorS1 {
+#Home-customerInfo .infomationSectorS1 {
   margin: 245px 0 0 300px;
   color: #5f5f5f;
 }
 
-#customerInfo .infomationSectorS1 .sectorWrap {
+#Home-customerInfo .infomationSectorS1 .sectorWrap {
   max-width: 1920px;
   margin: 0 auto;
 }
 
-#customerInfo .infomationSectorS1 .sectorWrap h1 {
+#Home-customerInfo .infomationSectorS1 .sectorWrap h1 {
   font-weight: bolder;
   font-size: 45px;
 }
 
-#customerInfo .infomationSectorS1 .sectorWrap p {
+#Home-customerInfo .infomationSectorS1 .sectorWrap p {
   font-size: 20px;
   padding-top: 50px;
   line-height: 25px;
 }
 
-#customerInfo .infomationSectorS1 .sectorWrap img {
+#Home-customerInfo .infomationSectorS1 .sectorWrap img {
   margin-top: -510px;
   margin-right: 200px;
   float: right;
 }
 
-#customerInfo .infomationSectorS2 {
+#Home-customerInfo .infomationSectorS2 {
   padding: 225px 0 0 300px;
   background: #f1f1f1;
   height: 100%;
   color: #5f5f5f;
 }
 
-#customerInfo .infomationSectorS2 .sectorWrap {
+#Home-customerInfo .infomationSectorS2 .sectorWrap {
   max-width: 1920px;
   margin: 0 auto;
 }
 
-#customerInfo .infomationSectorS2 .sectorWrap h1 {
+#Home-customerInfo .infomationSectorS2 .sectorWrap h1 {
   margin-left: 45%;
   margin-top: 250px;
   font-weight: bolder;
   font-size: 45px;
 }
 
-#customerInfo .infomationSectorS2 .sectorWrap p {
+#Home-customerInfo .infomationSectorS2 .sectorWrap p {
   margin-left: 45%;
   font-size: 20px;
   padding-top: 50px;
   line-height: 25px;
 }
 
-#customerInfo .infomationSectorS2 .sectorWrap img {
+#Home-customerInfo .infomationSectorS2 .sectorWrap img {
   margin-top: -420px;
   margin-right: 200px;
   float: left;
 }
 
-#grayboxInfo {
+#Home-grayboxInfo {
   margin-top: 840px;
   color: #fff;
 }
 
-#grayboxInfo .boxWrap {
+#Home-grayboxInfo .boxWrap {
   background: #414141;
   width: 100%;
   height: 335px;
   padding-top: 40px;
 }
 
-#grayboxInfo p {
+#Home-grayboxInfo p {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 600;
   padding-top: 20px;
 }
 
-#grayboxInfo h1 {
+#Home-grayboxInfo h1 {
   font-size: 25px;
   text-align: center;
   font-weight: 600;
 }
 
-#grayboxInfo h3 {
+#Home-grayboxInfo h3 {
   padding-top: 25px;
   font-weight: 600;
   color: #fff;
 }
 
-#grayboxInfo img {
+#Home-grayboxInfo img {
   width: 42px;
 }
 
-#grayboxInfo .boxWrapInfo {
+#Home-grayboxInfo .boxWrapInfo {
   max-width: 1920px;
   margin: 0 auto;
   padding-top: 45px;
@@ -202,58 +202,58 @@ body {
       justify-content: space-around;
 }
 
-#grayboxInfo .boxWrapInfo .boxInfo1 {
+#Home-grayboxInfo .boxWrapInfo .boxInfo1 {
   width: 350px;
   height: 155px;
   text-align: center;
 }
 
-#grayboxInfo .boxWrapInfo .boxInfo2 {
+#Home-grayboxInfo .boxWrapInfo .boxInfo2 {
   width: 350px;
   height: 155px;
   text-align: center;
 }
 
-#grayboxInfo .boxWrapInfo .boxInfo3 {
+#Home-grayboxInfo .boxWrapInfo .boxInfo3 {
   width: 350px;
   height: 155px;
   text-align: center;
 }
 
-#grayboxInfo .boxWrapInfo .boxInfo4 {
+#Home-grayboxInfo .boxWrapInfo .boxInfo4 {
   width: 350px;
   height: 155px;
   text-align: center;
 }
 
-#finalSector {
+#Home-finalSector {
   background: #f1f1f1;
 }
 
-#finalSector .finalSectorWrapper {
+#Home-finalSector .finalSectorWrapper {
   max-width: 1920px;
   margin: 0 auto;
   width: 100%;
 }
 
-#finalSector .finalSectorWrapper .wrapFinalInfoSector {
+#Home-finalSector .finalSectorWrapper .wrapFinalInfoSector {
   padding-top: 300px;
   text-align: center;
   color: #5f5f5f;
 }
 
-#finalSector .finalSectorWrapper .wrapFinalInfoSector h1 {
+#Home-finalSector .finalSectorWrapper .wrapFinalInfoSector h1 {
   font-weight: 700;
   font-size: 45px;
   padding-top: 50px;
 }
 
-#finalSector .finalSectorWrapper .wrapFinalInfoSector p {
+#Home-finalSector .finalSectorWrapper .wrapFinalInfoSector p {
   font-size: 25px;
   padding-top: 50px;
 }
 
-#finalSector .finalSectorWrapper .wrapFinalInfoSector button {
+#Home-finalSector .finalSectorWrapper .wrapFinalInfoSector button {
   background: #2c96ff;
   font-family: "Fredoka One";
   color: #fff;
@@ -267,7 +267,7 @@ body {
   transition: 0.1s ease-in-out;
 }
 
-#finalSector .finalSectorWrapper .wrapFinalInfoSector button:hover {
+#Home-finalSector .finalSectorWrapper .wrapFinalInfoSector button:hover {
   background: #0b55b5;
 }
 
