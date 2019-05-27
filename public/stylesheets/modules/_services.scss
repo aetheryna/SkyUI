@@ -1,0 +1,30 @@
+#page-wrap-services {
+  background: url("../images/background_service.png");
+  background-position: -51px -995px;
+  background-repeat: no-repeat;
+}
+
+#Services-infoBegin {
+  margin-left: 415px;
+  margin-top: 180px;
+  color: #fff;
+
+  h1 {
+    font-size: 85px;
+    font-family: $secondaryFont;
+    width: 560px;
+    height: 205px;
+  }
+
+  p {
+    font-size: 27px;
+    font-family: $primaryFont;
+  }
+
+  a {
+    width: 220px;
+    height: 32px;
+    font-size: 27px;
+    font-family: $secondaryFont;
+  }
+}

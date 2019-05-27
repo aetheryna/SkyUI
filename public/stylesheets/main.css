@@ -271,6 +271,37 @@ body {
   background: #0b55b5;
 }
 
+#page-wrap-services {
+  background: url("../images/background_service.png");
+  background-position: -51px -995px;
+  background-repeat: no-repeat;
+}
+
+#Services-infoBegin {
+  margin-left: 415px;
+  margin-top: 180px;
+  color: #fff;
+}
+
+#Services-infoBegin h1 {
+  font-size: 85px;
+  font-family: "Fredoka One";
+  width: 560px;
+  height: 205px;
+}
+
+#Services-infoBegin p {
+  font-size: 27px;
+  font-family: "Montserrat";
+}
+
+#Services-infoBegin a {
+  width: 220px;
+  height: 32px;
+  font-size: 27px;
+  font-family: "Fredoka One";
+}
+
 header {
   max-width: 1920px;
   margin: 0 auto;
