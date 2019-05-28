@@ -278,28 +278,42 @@ body {
 }
 
 #Services-infoBegin {
-  margin-left: 415px;
-  margin-top: 180px;
+  margin-left: 430px;
+  margin-top: 160px;
   color: #fff;
 }
 
 #Services-infoBegin h1 {
   font-size: 85px;
   font-family: "Fredoka One";
-  width: 560px;
-  height: 205px;
+  width: 565px;
+  height: 194px;
 }
 
 #Services-infoBegin p {
-  font-size: 27px;
+  margin-top: 36px;
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 25px;
   font-family: "Montserrat";
+  height: 100px;
+  line-height: 35px;
 }
 
 #Services-infoBegin a {
-  width: 220px;
-  height: 32px;
-  font-size: 27px;
+  padding: 17px 27px;
+  font-size: 25px;
   font-family: "Fredoka One";
+  background: #0180ff;
+  border-radius: 7px;
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: 0.1s ease-in;
+  transition: 0.1s ease-in;
+}
+
+#Services-infoBegin a:hover {
+  background: #076fd6;
 }
 
 header {
